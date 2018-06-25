@@ -1,0 +1,89 @@
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'oops, så ikke at jeg skulle commite fortløpende. Nesten ferdig'
+[master 8618ee4] oops, så ikke at jeg skulle commite fortløpende. Nesten ferdig
+ 13 files changed, 120 insertions(+)
+ create mode 100644 API_restrictions.png
+ create mode 100644 ajax_test.txt
+ create mode 100644 developer-test.pdf
+ create mode 100644 graphics-weather-177533.gif
+ create mode 100644 jquery-3.3.1.min.js
+ create mode 100644 moment.min.js
+ create mode 100644 rain.gif
+ create mode 100644 sun_rain-2-cc.gif
+ create mode 100644 sun_rain_cc.gif
+ create mode 100644 weather.css
+ create mode 100644 weather.html
+ create mode 100644 weather.js
+ create mode 100644 weather_clouds_animation_cc.gif
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'fikset så det var Minsk og ikke Moskva, ordnet timer'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'en liten cleanup for lesbarhet'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'tester moment.js'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'moment.js helt greit. Usikker på om mer skal gjøres'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'lyst på en mer elegant løsning enn remove og append'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'teit feil tok tid, men er fikset og alt skal være ferdig og nokså elegant'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git add .
+lobs@thinkpad:~/git/enonic_test$ git commit -am 'forgot to add footer, fixed that + finishing touches'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+lobs@thinkpad:~/git/enonic_test$ git push
+Username for 'https://github.com': matsfisk
+Password for 'https://matsfisk@github.com': 
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (15/15), 1.45 MiB | 1.32 MiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0)
+To https://github.com/MatsFisk/enonic_test.git
+   39f9b70..8618ee4  master -> master
+lobs@thinkpad:~/git/enonic_test$ git push
+Username for 'https://github.com': matsfisk
+Password for 'https://matsfisk@github.com': 
+Everything up-to-date
+lobs@thinkpad:~/git/enonic_test$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/MatsFisk/enonic_test
+   8618ee4..3fbe5c5  master     -> origin/master
+Updating 8618ee4..3fbe5c5
+Fast-forward
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 README.md
+lobs@thinkpad:~/git/enonic_test$ git push
+Username for 'https://github.com': matsfisk
+Password for 'https://matsfisk@github.com': 
+Everything up-to-date
