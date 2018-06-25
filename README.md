@@ -5,4 +5,4 @@ Setting it up:
 3. Enjoy fresh weather data every minute
 
 
-Due to technical errors, commits were not done properly. The commit comments and such is in the file 'commit_history.txt'
+Due to technical errors, commits were not done properly. The commit comments and such are in the file 'commit_history.txt'
